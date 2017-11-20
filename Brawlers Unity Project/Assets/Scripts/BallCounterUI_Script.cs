@@ -12,11 +12,13 @@ public class BallCounterUI_Script : MonoBehaviour {
 	private Ball_Script BScript;
 	private float BallPower;
 	private Text BallScoreText;
+	private float OrthoSize;
 
 	// Use this for initialization
 	void Start () {
-		UIRatioY = Screen.height/10; //Change 393 by relativ screen.width
-		UIRatioX = Screen.width/5.6f; //Change 221 by relatuv screeb.length
+		OrthoSize = Camera.main.orthographicSize;
+		UIRatioY = ((Screen.height*5)/OrthoSize)/10;
+		UIRatioX = ((Screen.width*5)/OrthoSize)/5.6f;
 		BScript = Ball.GetComponent<Ball_Script> ();
 		BallPower = BScript.BallPower;
 		BallScoreText = this.GetComponent<Text> ();

@@ -109,7 +109,7 @@ MonoBehaviour:
   m_MinSize: {x: 683, y: 492}
   m_MaxSize: {x: 14004, y: 14042}
   vertical: 0
-  controlID: 50
+  controlID: 113
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -133,7 +133,7 @@ MonoBehaviour:
   m_MinSize: {x: 406, y: 492}
   m_MaxSize: {x: 10002, y: 14042}
   vertical: 1
-  controlID: 51
+  controlID: 114
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -157,7 +157,7 @@ MonoBehaviour:
   m_MinSize: {x: 406, y: 221}
   m_MaxSize: {x: 8006, y: 4021}
   vertical: 0
-  controlID: 52
+  controlID: 115
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -201,8 +201,8 @@ MonoBehaviour:
     y: 0
     width: 1186
     height: 647
-  m_MinSize: {x: 204, y: 221}
-  m_MaxSize: {x: 4004, y: 4021}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 14}
   m_Panes:
   - {fileID: 14}
@@ -308,7 +308,7 @@ MonoBehaviour:
     m_HSlider: 0
     m_VSlider: 0
     m_IgnoreScrollWheelUntilClicked: 0
-    m_EnableMouseInput: 0
+    m_EnableMouseInput: 1
     m_EnableSliderZoom: 0
     m_UniformScale: 1
     m_UpDirection: 1
@@ -369,7 +369,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 9efbffff00000000
+    m_ExpandedIDs: 82fbffff00000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -425,9 +425,9 @@ MonoBehaviour:
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -0.06702754, y: 0.28726435, z: 3.3222656}
+    m_Target: {x: -0.29167685, y: 2.0458672, z: 3.297165}
     speed: 2
-    m_Value: {x: -0.06702754, y: 0.28726435, z: 3.3222656}
+    m_Value: {x: -0.29167685, y: 2.0458672, z: 3.297165}
   m_RenderMode: 0
   m_ValidateTrueMetals: 0
   m_SceneViewState:
@@ -455,9 +455,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 13.69049
+    m_Target: 16.190304
     speed: 2
-    m_Value: 13.69049
+    m_Value: 16.190304
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -494,7 +494,7 @@ MonoBehaviour:
     x: 218
     y: 91
     width: 1182
-    height: 621
+    height: 626
   m_PersistentViewDataDictionary: {fileID: 0}
   m_ViewTransforms:
     m_KeySerializationHelper: []
@@ -551,19 +551,19 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 0
     m_Folders:
-    - Assets
+    - Assets/Scripts
   m_ViewMode: 1
   m_StartGridSize: 32
   m_LastFolders:
-  - Assets
+  - Assets/Scripts
   m_LastFoldersGridSize: 32
   m_LastProjectPath: C:\Users\llesetre\Documents\GitHub\Brawlers\Brawlers Unity Project
   m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 3c270000
-    m_LastClickedID: 10044
-    m_ExpandedIDs: 000000003c27000000ca9a3bffffff7f
+    m_SelectedIDs: 96280000
+    m_LastClickedID: 10390
+    m_ExpandedIDs: 000000004827000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -591,7 +591,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000003c270000
+    m_ExpandedIDs: 0000000048270000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
