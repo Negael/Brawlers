@@ -66,7 +66,7 @@ public class SlingShot_Script : MonoBehaviour {
 		//Debug.Log ("Hit");
 		Rb.velocity = Rb.velocity/2;
 		Time.timeScale = 0.2f;
-		StartCoroutine (WaitAndRescaleTime(0.1f));
+		StartCoroutine (WaitAndRescaleTime(0.025f));
 	}
 
 	IEnumerator WaitAndRescaleTime(float Delay){
